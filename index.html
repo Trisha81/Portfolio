@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Trisha Jha Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<h2 class="logo">Trisha Jha</h2>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#connect">Connect</a></li>
+</ul>
+
+</nav>
+
+
+
+<section id="home" class="hero">
+
+<!-- BACKGROUND VIDEO -->
+
+<video autoplay muted loop playsinline class="bg-video">
+<source src="video/896-141283020_medium.mp4" type="video/mp4">
+</video>
+
+
+<div class="hero-left">
+
+<p class="intro">Hello I'm</p>
+
+<h1 class="name">Trisha Jha</h1>
+
+<h2 class="typing-text">
+And I'm good at <span id="typing"></span>
+</h2>
+
+<a href="resume/TRISHA_JHA_RESUME.pdf" class="btn">
+Download Resume
+</a>
+
+</div>
+
+<div class="hero-right">
+<img src="images/PHOTO.jpeg">
+</div>
+
+</section>
+
+
+
+<section id="experience">
+
+<div class="section-title">Experience</div>
+
+<div class="exp-card">
+
+<h3>Blue Prism Intelligent Automation Virtual Intern</h3>
+
+<ul>
+<li>Automated business workflows using RPA reducing manual effort.</li>
+<li>Completed structured training in automation technologies.</li>
+</ul>
+
+</div>
+
+<hr>
+
+<div class="exp-card">
+
+<h3>AI & ML Virtual Intern – Google</h3>
+
+<ul>
+<li>Trained machine learning models achieving high accuracy.</li>
+<li>Applied ML algorithms to real-world datasets.</li>
+</ul>
+
+</div>
+
+<hr>
+
+<div class="exp-card">
+
+<h3>Employability Skills Intern – AICTE</h3>
+
+<ul>
+<li>Ranked among top 15% of participants.</li>
+<li>Completed professional development training.</li>
+</ul>
+
+</div>
+
+</section>
+
+
+
+<section id="education">
+
+<div class="section-title">Education</div>
+
+<div class="education-card">
+
+<h2>SR University</h2>
+<p>B.Tech Computer Science</p>
+<p>2023 – 2027</p>
+<p>CGPA : 9.55 / 10</p>
+
+</div>
+
+</section>
+
+
+
+<section id="skills">
+
+<div class="section-title">Skills</div>
+
+<h3>Programming Languages</h3>
+
+<div class="skill-row">
+
+<div class="skill">
+<img src="images/python.jpg">
+<p>Python</p>
+</div>
+
+<div class="skill">
+<img src="images/html.png">
+<p>HTML</p>
+</div>
+
+<div class="skill">
+<img src="images/css.png">
+<p>CSS</p>
+</div>
+
+<div class="skill">
+<img src="images/javascript.png">
+<p>JavaScript</p>
+</div>
+
+</div>
+
+
+
+<h3>Computer Science</h3>
+
+<div class="skill-row">
+
+<div class="skill">
+<img src="images/dsa.png">
+<p>DSA</p>
+</div>
+
+<div class="skill">
+<img src="images/os.png">
+<p>Operating Systems</p>
+</div>
+
+<div class="skill">
+<img src="images/dbms.png">
+<p>DBMS</p>
+</div>
+
+</div>
+
+
+
+<h3>Tools</h3>
+
+<div class="skill-row">
+
+<div class="skill">
+<img src="images/vs.jpg">
+<p>VS Code</p>
+</div>
+
+<div class="skill">
+<img src="images/fusion360.png">
+<p>Fusion 360</p>
+</div>
+
+<div class="skill">
+<img src="images/tinckercad.png">
+<p>Tinkercad</p>
+</div>
+
+</div>
+
+
+
+<h3>Domain</h3>
+
+<div class="skill-row">
+
+<div class="skill">
+<img src="images/cloud computing.png">
+<p>Cloud Computing</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="projects">
+
+<div class="section-title">Projects</div>
+
+<div class="project-slider">
+
+<button class="slide-btn left" onclick="prevProject()">❮</button>
+
+
+<div class="project-slide active">
+
+<h2>Clay Crafts E-commerce Website</h2>
+
+<img src="images/claycrafts_website.png">
+
+<p>
+Developed a responsive e-commerce website using HTML, CSS and JavaScript.
+Implemented product listings, shopping cart functionality and form validation.
+Designed a mobile-friendly UI ensuring smooth navigation.
+</p>
+
+</div>
+
+
+
+<div class="project-slide">
+
+<h2>Ticket Reservation System</h2>
+
+<p>
+Python system using BST, Queue, Stack and Deque for seat allocation,
+RAC handling, waiting list management and ticket cancellation.
+Developed automatic seat promotion using tree traversal algorithms.
+</p>
+
+</div>
+
+
+<button class="slide-btn right" onclick="nextProject()">❯</button>
+
+</div>
+
+</section>
+
+
+<section id="connect">
+
+<div class="section-title">Connect</div>
+
+<div class="social-icons">
+
+<a href="https://www.linkedin.com/in/trisha-jha-283b9129a/" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="https://github.com/Trisha81" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="mailto:trishaj961@gmail.com">
+<i class="fas fa-envelope"></i>
+</a>
+
+</div>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
